@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Playfair+Display&display=swap');
+body {
+    box-sizing: border-box;
+    margin: 0;
+     padding: 0;
+     background-color: #eee;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Black Ops One', 'cursive';
+}
+
+h1 {
+
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 25px;
+    color: #5b155b;
+}
+span {
+    color: #a978a9;
+}
+.container {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    border-bottom-right-radius: 102px;
+    position: relative;
+    top: 200px;
+    left: 20%;
+    padding: 34px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #c1bdbd;
+    padding-bottom: 23px;
+    align-items: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+input {
+    width: 73px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px gray solid;
+    text-transform: capitalize;
+    color: gray;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 7px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.result p {
+    margin: 0;
+}
+
+.submit {
+    width: 70px;
+    height: 50px;
+    background-color: #a978a9;
+    border: none;
+    border-radius: 10pc;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+  
+}
+@media screen and (max-width:800px) {
+    .container {
+        width: fit-content;
+        left: 0;
+        margin: auto;
+    }
+}
